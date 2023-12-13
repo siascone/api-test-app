@@ -1,0 +1,26 @@
+/*!*************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/index.scss ***!
+  \*************************************************************************************************************************************/
+ol,
+#api-form {
+  width: 600px;
+}
+
+#api-form {
+  border: solid 1px black;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+#api-url-input, #options-input, #form-btn {
+  width: calc(100% - 24px);
+  margin: 2px;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: none;
+}
+
+#form-btn {
+  width: 100px;
+  background-color: skyblue;
+}

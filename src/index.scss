@@ -1,0 +1,28 @@
+// @import './reset.scss';
+
+
+ol,
+#api-form {
+    width: 600px;
+}
+
+#api-form {
+    border: solid 1px black; 
+    padding: 10px; 
+    border-radius: 6px;
+}
+
+#api-url-input, #options-input, #form-btn {
+    width: calc(100% - 24px);
+    margin: 2px;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: none;
+}
+
+#form-btn {
+    width: 100px;
+    background-color: skyblue;
+}
+
+

@@ -1,6 +1,11 @@
 # API TEST APP
 - A simple app to test api endpoints
 
+## Technologies
+- JavaScript
+- HTML
+- CSS
+
 ## Setup
 - download or clone this repo
 - `npm install` at the root of the directory

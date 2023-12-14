@@ -3,8 +3,6 @@
   \*************************************************************************************************************************************/
 body {
   display: flex;
-  flex-direction: column;
-  justify-content: start;
 }
 
 ol,
@@ -33,7 +31,7 @@ ol,
 
 pre {
   width: 597px !important;
-  height: 300px !important;
+  height: 465px !important;
   margin: 0 !important;
   margin-top: 5px !important;
   overflow: scroll;

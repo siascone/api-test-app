@@ -30,6 +30,12 @@ ol,
 }
 
 pre {
+  background-color: black;
+  border-radius: 6px;
+  padding: 13px;
+}
+
+pre {
   width: 597px !important;
   height: 465px !important;
   margin: 0 !important;

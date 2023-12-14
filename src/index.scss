@@ -36,9 +36,12 @@ ol,
 //     width: 600px;
 // }
 
-// code {
-//     color: black;
-// }
+pre {
+    // color: black !important;
+    background-color: black;
+    border-radius: 6px;
+    padding: 13px;
+}
 
 pre {
     width: calc(600px - 3px) !important;

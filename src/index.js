@@ -5,6 +5,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const testFetch = async (url) => {
         let optionsJSON = optionsInput.value;
+
+        if (optionsJSON === '') {
+            optionsJSON = '{}'
+        }
+
         let options = await JSON.parse(optionsJSON);
 
         if (options.headers) {
@@ -16,9 +21,15 @@ document.addEventListener('DOMContentLoaded', () => {
             if (res.ok) {
                 let resBody = await res.json();
                 console.log(resBody);
+                let codeElement = document.getElementById('output');
+                codeElement.textContent = '';
+                codeElement.textContent = JSON.stringify(resBody, null, '  ');
             } else {
                 let errorBody = await res.json();
                 console.log(errorBody);
+                let codeElement = document.getElementById('output');
+                codeElement.textContent = '';
+                codeElement.textContent = JSON.stringify(errorBody, null, '  ');
                 throw new Error(res);
 
             };

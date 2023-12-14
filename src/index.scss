@@ -1,5 +1,10 @@
 // @import './reset.scss';
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
 
 ol,
 #api-form {
@@ -26,3 +31,23 @@ ol,
 }
 
 
+// pre, code {
+//     all: unset;
+//     width: 600px;
+// }
+
+// code {
+//     color: black;
+// }
+
+pre {
+    width: calc(600px - 3px) !important;
+    height: 300px !important;
+    margin: 0 !important;
+    margin-top: 5px !important;
+    overflow: scroll;
+}
+
+code {
+    all:unset
+}
